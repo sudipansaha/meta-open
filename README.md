@@ -44,12 +44,12 @@ If you find this code useful, consider citing our work:
 ### Training and Evaluating
 1. Training
 ```
-python main.py --cfg ./config/openfew/default.yaml
+python main.py --cfg ./configs/openfew/default.yaml
 ```
 
 2. Testing
 ```
-python main.py --cfg ./config/openfew/default.yaml --test
+python main.py --cfg ./configs/openfew/default.yaml --test
 ```
 
 ### Results and Models
