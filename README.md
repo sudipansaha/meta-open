@@ -36,7 +36,7 @@ If you find this code useful, consider citing our work:
 ### Dataset
 * mini-ImageNet
   * Download the dataset following [here](https://mega.nz/#!rx0wGQyS!96sFlAr6yyv-9QQPCm5OBFbOm4XSD0t-HlmGaT5GaiE) (from https://github.com/gidariss/FewShotWithoutForgetting).
-  * Put the gzip file under `./dataset/miniImageNet`
+  * Put the gzip (.gz) file under `./dataset/miniImageNet`
   * `cd dataset/miniImageNet`
   * `sh prepare.sh`
 
