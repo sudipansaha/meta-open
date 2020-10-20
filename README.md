@@ -32,6 +32,8 @@ If you find this code useful, consider citing our work:
 * [PyTorch](https://pytorch.org/) (version >= 0.4.1)
 * [yaml](https://pyyaml.org/wiki/PyYAMLDocumentation)
 
+There is a pytorch version related UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule.
+
 
 ### Dataset
 * mini-ImageNet
