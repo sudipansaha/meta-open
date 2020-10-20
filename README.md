@@ -52,6 +52,7 @@ If you find this code useful, consider citing our work:
 python main.py --cfg ./configs/openfew/default.yaml
 ```
 corrected by Sudipan from config to configs
+
 2. Testing
 ```
 python main.py --cfg ./configs/openfew/default.yaml --test
