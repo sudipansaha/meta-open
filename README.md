@@ -40,6 +40,11 @@ If you find this code useful, consider citing our work:
   * `cd dataset/miniImageNet`
   * `sh prepare.sh`
 
+### Environment (added by Sudipan)
+**Install** conda env create -f env.yml
+**Activate** conda activate metaOpenMaster
+**Deactivate** conda deactivate metaOpenMaster
+
 
 ### Training and Evaluating
 1. Training
