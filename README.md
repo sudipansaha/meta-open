@@ -41,9 +41,9 @@ If you find this code useful, consider citing our work:
   * `sh prepare.sh`
 
 ### Environment (added by Sudipan)
-**Install** conda env create -f env.yml
-**Activate** conda activate metaOpenMaster
-**Deactivate** conda deactivate metaOpenMaster
+* **Install** conda env create -f environment.yml
+* **Activate** conda activate metaOpenMaster
+* **Deactivate** conda deactivate metaOpenMaster
 
 
 ### Training and Evaluating
@@ -51,7 +51,7 @@ If you find this code useful, consider citing our work:
 ```
 python main.py --cfg ./configs/openfew/default.yaml
 ```
-
+corrected by Sudipan from config to configs
 2. Testing
 ```
 python main.py --cfg ./configs/openfew/default.yaml --test
